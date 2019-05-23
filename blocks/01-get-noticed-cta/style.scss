@@ -1,0 +1,65 @@
+.entry-content .wp-block-fsblocks-get-noticed-cta,
+.wp-block-fsblocks-get-noticed-cta {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 20px;
+  justify-content: flex-end;
+  background: 
+	  /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(26, 25, 56, 0.85),
+      rgba(26, 25, 56, 0.85)
+    ),
+    /* bottom, image */
+      url("https://getnoticed.flauntsites.com/wp-content/uploads/2019/05/fs-cta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  .right {
+    width: 100%;
+    @media screen and (min-width: 40em) {
+      width: 50%;
+    }
+    margin: 1em 1em 2em;
+
+    h3 {
+      color: #fff;
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .message-body {
+      font-size: 1rem;
+      margin-bottom: 1em;
+    }
+
+    .cta-button {
+      font-style: italic;
+      font-weight: 200;
+      text-align: center;
+      color: #fff;
+      border: 5px solid #d64b26;
+      font-size: 30px;
+      min-width: 50%;
+      width: fit-content;
+      margin: 0 auto;
+      display: block;
+      text-decoration: none;
+      background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0.025) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      );
+      &:hover {
+        background: radial-gradient(
+          ellipse at center,
+          rgba(0, 0, 0, 0.325) 0%,
+          rgba(0, 0, 0, 0.315) 100%
+        );
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.entry-content .wp-block-fsblocks-get-noticed-cta,
+.wp-block-fsblocks-get-noticed-cta {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  background: linear-gradient(rgba(26, 25, 56, 0.85), rgba(26, 25, 56, 0.85)), url("https://getnoticed.flauntsites.com/wp-content/uploads/2019/05/fs-cta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  .entry-content .wp-block-fsblocks-get-noticed-cta .right,
+  .wp-block-fsblocks-get-noticed-cta .right {
+    width: 100%;
+    margin: 1em 1em 2em; }
+    @media screen and (min-width: 40em) {
+      .entry-content .wp-block-fsblocks-get-noticed-cta .right,
+      .wp-block-fsblocks-get-noticed-cta .right {
+        width: 50%; } }
+    .entry-content .wp-block-fsblocks-get-noticed-cta .right h3,
+    .wp-block-fsblocks-get-noticed-cta .right h3 {
+      color: #fff;
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0; }
+    .entry-content .wp-block-fsblocks-get-noticed-cta .right .message-body,
+    .wp-block-fsblocks-get-noticed-cta .right .message-body {
+      font-size: 1rem;
+      margin-bottom: 1em; }
+    .entry-content .wp-block-fsblocks-get-noticed-cta .right .cta-button,
+    .wp-block-fsblocks-get-noticed-cta .right .cta-button {
+      font-style: italic;
+      font-weight: 200;
+      text-align: center;
+      color: #fff;
+      border: 5px solid #d64b26;
+      font-size: 30px;
+      min-width: 50%;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin: 0 auto;
+      display: block;
+      text-decoration: none;
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.025) 0%, rgba(0, 0, 0, 0.15) 100%); }
+      .entry-content .wp-block-fsblocks-get-noticed-cta .right .cta-button:hover,
+      .wp-block-fsblocks-get-noticed-cta .right .cta-button:hover {
+        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.325) 0%, rgba(0, 0, 0, 0.315) 100%); }
