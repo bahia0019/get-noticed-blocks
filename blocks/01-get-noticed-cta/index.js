@@ -54,7 +54,7 @@ export default registerBlockType("fsblocks/get-noticed-cta", {
 
     return (
       <div className={className}>
-        <div class="right">
+        <div class="justify-right">
           <RichText
             tagName="h3"
             placeholder={__("Click to add a CTA Title", "fsblocks")}
@@ -81,7 +81,7 @@ export default registerBlockType("fsblocks/get-noticed-cta", {
     } = props
     return (
       <div>
-        <div class="right">
+        <div class="justify-right">
           <h3>{ctaTitle}</h3>
           <div class="message-body">{ctaBody}</div>
           <a class="cta-button" href="https://flauntsites.com">
