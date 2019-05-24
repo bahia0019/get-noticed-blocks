@@ -9,7 +9,7 @@
  * Plugin Name: Get Noticed Blocks
  * GitHub Plugin URI: https://github.com/bahia0019/get-noticed-blocks
  * Description: Get Noticed with Flaunt Sites Blocks plugin.
- * Version:     0.1.2
+ * Version:     0.1.3
  * Author:      William Bay
  * Author URI:  https://getnoticed.flauntsite.com
  * Text Domain: fsblocks

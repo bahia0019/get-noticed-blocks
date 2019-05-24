@@ -84,7 +84,7 @@ export default registerBlockType("fsblocks/get-noticed-cta", {
         <div class="justify-right">
           <h3>{ctaTitle}</h3>
           <div class="message-body">{ctaBody}</div>
-          <a class="cta-button" href="https://flauntsites.com">
+          <a class="cta-button" href="https://getnoticed.flauntsites.com">
             Get Noticed!
           </a>
         </div>
